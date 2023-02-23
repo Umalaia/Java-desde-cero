@@ -14,9 +14,9 @@ public class TestBuscarPorOficinas {
 				System.out.println(oficina);
 		}
 	
-		String prefijo = "9127";
+		
 		System.out.println("Listar oficinas por prefijo");
-		for (Oficina oficina: banco.buscarPorPrefijo(prefijo)) {
+		for (Oficina oficina: banco.buscarPorPrefijo("9127")) {
 			System.out.println(oficina);
 	}
 	
