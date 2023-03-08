@@ -29,15 +29,25 @@ public class test {
 			System.out.println("");
 	
 		// test eliminar persona
-			System.out.println(insti1.eliminarPersona(insti1.buscarPersona("1234567k")));
+			//System.out.println(insti1.eliminarPersona(insti1.buscarPersona("1234567k")));
 		
 		// test buscar una
 			System.out.println("buscar persona por dni");
 			System.out.println(insti1.buscarPersona("2315645l"));
+			System.out.println("");
 		
 		// test buscar por tipo
+			for (Persona ele: insti1.buscarPersonaPorTipo("Profesor")) {
+				System.out.println(ele);
+			}
+			System.out.println("");
 			
-		
+		// hacer con un for recorriendo el arraylist y el if con el instanceof() de cada tipo de persona
+			
+			
+		// toString
+			System.out.println("Mostrar al alumno con el toString");
+			System.out.println(insti1.buscarPersona("2315645l").toString());
 		
 		
 

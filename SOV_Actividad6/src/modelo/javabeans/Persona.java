@@ -2,6 +2,10 @@ package modelo.javabeans;
 
 import java.util.Objects;
 
+// 1º Me creo el javabean con la clase persona, con sus constraructores, getter and setter, toString(), y hashCode y equals
+// pasandole el nif. Tambien creo la clase abstracta trabajar, de la que heredaran las clases Alumno, Administrativo y Profesor, 
+// que las implementaran en cada clase dependiendo de lo que haga en cada una de ellas.
+// 2º Creo el javabean Administrativo
 public abstract class Persona {
 	
 	private String nif, nombre, direccion,telefono;

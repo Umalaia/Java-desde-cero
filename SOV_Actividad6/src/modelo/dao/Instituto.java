@@ -72,7 +72,7 @@ public class Instituto implements InstitutoDao {
 			if (tipoPersona.equalsIgnoreCase("Administrativo") && ele instanceof Administrativo) {
 				aux.add(ele);	
 			}
-		return null;
+		return aux;
 	}
 	
 }

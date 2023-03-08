@@ -24,6 +24,8 @@ public class TestAsociacion {
 		System.out.println("apellidos del titular de la cuenta  2 : " + cta2.getCliente().getApellidos());
 		System.out.println(" telefono oficina cliente de la cuenta 2 : " + cta2.getCliente().getOficina().getTelefono());
 		
+		System.out.println(cta2.getCliente().getOficina().getIdOficina());
+		
 	}
 
 }

@@ -19,6 +19,8 @@ public class testAsociacionFamilias {
 		System.out.println("la familia del prod1 : " + prod1.getFamilia());
 		System.out.println("Descripcion de la familia del producto 1 : "+ prod1.getFamilia().getDescripcion());
 		
+		System.out.println("Id de la familia es : " + prod1.getFamilia().getIdFamilia());
+		
 		System.out.println(prod1);
 		
 		
